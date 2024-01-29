@@ -11,7 +11,7 @@ public class ArrayListToArray {
         stringList.toArray(stringArray);
         return stringArray;
     }
-
+// array list elements present in the string array is converted to array of strings
     public static void main(String[] args) {
         // Example usage
         ArrayList<String> strings = new ArrayList<>();

@@ -1,8 +1,8 @@
 package collections;
-
-import org.junit.Test;
 import java.util.ArrayList;
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class ArrayListToArrayTest {
 
