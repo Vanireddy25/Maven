@@ -1,4 +1,4 @@
-package Constructor;
+package constructor;
 public class Tommy extends Brand{
     String name;
     public Tommy(String name, String brandType) {

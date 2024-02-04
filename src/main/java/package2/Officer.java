@@ -1,4 +1,4 @@
-package Package2;
+package package2;
 public final class Officer {
     final String name = "Vanireddy";
 
