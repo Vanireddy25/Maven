@@ -4,7 +4,10 @@ public class DeadlockExample {
     // Two locks for synchronization
     private static final Object lock1 = new Object();
     private static final Object lock2 = new Object();
-
+// where two threads,thread1 and thread2,attempt to acquire locks in opposite order
+// Thread 1 acquires lock1 and then waits for lock2,
+//while thread 2 acquires lock2 and then waits for lock1, resulting in a deadlock
+//where both threads are stuck waiting for each other to release their respective locks.
     // Thread 1 acquires lock1 then tries to acquire lock2
     private static Thread thread1 = new Thread(() -> {
         synchronized (lock1) {
